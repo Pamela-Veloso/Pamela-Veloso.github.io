@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pamela Veloso | Desarrolladora Full Stack Python</title>
+  <meta name="description" content="Portafolio de Pamela Veloso, Ingeniera Informática y Bioquímica, desarrolladora Full Stack Python (Django, PostgreSQL).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#inicio">Pamela Veloso</a>
+  <nav aria-label="Principal">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#trayectoria">Trayectoria</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <h1>Del laboratorio al código</h1>
+      <p class="lead">Soy Pamela Veloso, Ingeniera Informática y Bioquímica. Desarrollo aplicaciones web con Python y Django, y llevo el rigor de la investigación científica a cada proyecto de software.</p>
+      <div class="actions">
+        <a class="btn primary" href="docs/cv-pamela-veloso.pdf" download>Descargar CV</a>
+        <a class="btn" href="#contacto">Contactar</a>
+      </div>
+    </div>
+    <img class="avatar" src="img/foto-pamela.jpg" alt="Retrato de Pamela Veloso" width="320" height="320">
+  </section>
+
+  <section id="sobre-mi" class="block">
+    <h2>Sobre mí</h2>
+    <div class="prose">
+      <p>Vivo en Valdivia, Chile. Mi formación combina la bioquímica, la ingeniería informática y la investigación: actualmente curso un doctorado en Recursos Naturales Acuáticos en la Universidad de Valparaíso, donde estudio los condrictios (tiburones, rayas y quimeras) capturados como fauna acompañante en la pesquería artesanal de crustáceos demersales.</p>
+      <p>En paralelo, estudio el bootcamp de Desarrollo Full Stack Python de Talento Digital para Chile. Busco incorporarme a un equipo de desarrollo donde pueda aportar con aplicaciones web y análisis de datos.</p>
+    </div>
+  </section>
+
+  <section id="habilidades" class="block">
+    <h2>Habilidades</h2>
+    <div class="skills">
+      <article>
+        <h3>Backend</h3>
+        <p>Python y Django para construir la lógica de la aplicación, la autenticación y los permisos de usuario.</p>
+      </article>
+      <article>
+        <h3>Bases de datos</h3>
+        <p>PostgreSQL y SQL para modelar datos relacionales y generar reportes con consultas JOIN.</p>
+      </article>
+      <article>
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript y Bootstrap para crear interfaces claras y adaptables a cualquier pantalla.</p>
+      </article>
+      <article>
+        <h3>Ciencia de datos</h3>
+        <p>Apache Spark, AWS y redes neuronales para analizar datos y construir modelos predictivos.</p>
+      </article>
+      <article>
+        <h3>Herramientas</h3>
+        <p>Git y GitHub para versionar código, trabajar en equipo y publicar proyectos.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="proyectos" class="block">
+    <h2>Proyectos</h2>
+    <article class="project">
+      <a href="https://github.com/Pamela-Veloso/proyecto-Arriendo-Inmuebles" class="shot" aria-label="Ver el repositorio de Arriendo de Inmuebles">
+        <img src="img/arriendo-1.png" alt="Pantalla principal de la aplicación Arriendo de Inmuebles" loading="lazy">
+      </a>
+      <div>
+        <h3>Arriendo de Inmuebles</h3>
+        <p>Aplicación web para publicar y gestionar inmuebles en arriendo. Tiene dos tipos de usuario, arrendadores y arrendatarios, con permisos distintos, y un CRUD completo donde cada persona solo puede editar o eliminar sus propias propiedades.</p>
+        <p>Incluye validaciones en los modelos y selectores dependientes de región y comuna.</p>
+        <ul class="tags">
+          <li>Python</li><li>Django</li><li>PostgreSQL</li><li>Bootstrap</li><li>JavaScript</li>
+        </ul>
+        <a class="link" href="https://github.com/Pamela-Veloso/proyecto-Arriendo-Inmuebles">Ver código en GitHub</a>
+      </div>
+    </article>
+  </section>
+
+  <section id="trayectoria" class="block">
+    <h2>Trayectoria</h2>
+    <ul class="timeline">
+      <li><strong>Bootcamp Desarrollo Full Stack Python</strong> Talento Digital para Chile, en curso.</li>
+      <li><strong>Doctorado en Recursos Naturales Acuáticos</strong> Universidad de Valparaíso, candidata.</li>
+      <li><strong>Desarrolladora full stack y administradora de Salesforce</strong> Socius BI Arquitectura Ltda., 18 meses.</li>
+      <li><strong>Terrazas de Oz</strong> PWA en Django y PostgreSQL para un restobar, con menú QR, pedidos, inventario y modelos de machine learning. Proyecto de título.</li>
+      <li><strong>Ingeniería Informática</strong> INACAP, titulada.</li>
+      <li><strong>Bioquímica</strong> Universidad Austral de Chile.</li>
+    </ul>
+  </section>
+
+  <section id="contacto" class="block">
+    <h2>Contacto</h2>
+    <p class="prose">¿Tienes una oportunidad o quieres conocer más de mi trabajo? Escríbeme por el medio que prefieras.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:pamelavelosouribe@gmail.com">Enviar correo</a>
+      <a class="btn" href="https://wa.me/56987239874">WhatsApp</a>
+      <a class="btn" href="https://www.linkedin.com/in/TU-USUARIO-LINKEDIN">LinkedIn</a>
+      <a class="btn" href="https://github.com/Pamela-Veloso">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Pamela Veloso Uribe · Valdivia, Chile</p>
+</footer>
+
+</body>
+</html>
