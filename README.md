@@ -107,3 +107,8 @@ g)	Mantener la información actualizada: A medida que avance en mi formación y 
 h)	Revisar la calidad del contenido: Antes de publicar el portafolio, revisaré la ortografía, redacción, funcionamiento de los enlaces y consistencia visual de las distintas secciones. También comprobaré que el sitio sea responsivo.
 
 i)	Utilizar GitHub como apoyo profesional: Utilizaré GitHub no solo para alojar el código de mis proyectos, sino también como complemento del portafolio, permitiendo que quienes estén interesados puedan revisar directamente mi trabajo y conocer mi forma de desarrollar y organizar proyectos, que es la idea de base de este desafío, aprender a organizar los proyectos y mostrarse como profesional al mundo.
+
+
+** LAMENTABLEMENTE NO HUBO RETROALIMENTACIÓN DOCENTE POR FALTA DE TIEMPO, TANTO DE ENTREGA COMO DE CORRECIÓN **
+
+PERO SIEMPRE HAY MEJORAS PRESENTES, TANTO EN DISEÑO COMO EN CONTENIDO
